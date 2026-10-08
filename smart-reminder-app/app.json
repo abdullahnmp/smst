@@ -1,0 +1,21 @@
+{
+  "expo": {
+    "name": "Smart Reminder",
+    "slug": "smart-reminder",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "dark",
+    "backgroundColor": "#04040a",
+    "android": {
+      "package": "com.yourname.smartreminder",
+      "permissions": [
+        "POST_NOTIFICATIONS",
+        "SCHEDULE_EXACT_ALARM",
+        "USE_EXACT_ALARM",
+        "RECEIVE_BOOT_COMPLETED",
+        "VIBRATE"
+      ]
+    },
+    "plugins": [["expo-notifications", { "color": "#9b8cff" }]]
+  }
+}
